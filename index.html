@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fa-solid fa-utensils"></i> resto Italian.</a>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fa-solid fa-bars" id="menu-bars"></i>
+        </div>
+    </header>
+        
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fa-solid fa-xmark" id="close"></i>
+    </form>
+    
+    <section class="home" id="home"> 
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>spicy noodles</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="spicy-noddles.webp" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>fried chicken</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="ayam.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dish</span>
+                        <h3>hot pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="pizza.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--dieshes section start-->
+
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="spicy-noddles.webp" style="width: 200px;"; alt="">
+                <h3>Spicy Noodles</h3>
+                <div class="start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="pizza.jpg" style="width: 200px;"; alt="">
+                <h3>Hot Pizza</h3>
+                <div class="start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span>$12.78</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="ayam.jpg" style="width: 200px;"; alt="">
+                <h3>Fried Chicken</h3>
+                <div class="start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span>$15.93</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="gelato.jpg" style="width: 200px;"; alt="">
+                <h3>Gelato</h3>
+                <div class="start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span>$20.23</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="lasagna2.jpg" style="width: 200px;"; alt="">
+                <h3>Lasagna</h3>
+                <div class="start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span>$17.46</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="panini.jpg" style="width: 200px;"; alt="">
+                <h3>Panini</h3>
+                <div class="start">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <span>$19.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about section stars-->
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="pancake3.jpg" style="width: 400px;" alt="">
+            </div>
+
+            <div class="content">
+                <h3>best food in the county</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <div class="icon-container">
+                    <div class="icon">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="hoddog.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Hot Dog</h3>
+                    <p>Hot dogs are fast food that consists of sausages placed inside a long bun. Usually, hot dogs are served with a variety of toppings such as mustard, ketchup, onions, pickles, and chili.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="risotto2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Risotto</h3>
+                    <p>Risotto is an Italian dish made from Arborio rice cooked in broth until it reaches a creamy consistency. Risotto is often given with additions such as meat, vegetables, cheese, and wine.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$20.89</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="hamburger2.avif" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Hamburger</h3>
+                    <p>A hamburger is a sandwich that consists of a meat patty placed between two buns. It is often accompanied by various toppings such as lettuce, tomatoes, cheese, pickles, onions, and sauces.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.93</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="ravioli3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Ravioli</h3>
+                    <p>Ravioli are square-shaped pasta filled with various ingredients such as cheese, meat, or vegetables. Ravioli is usually served with tomato sauce or cream sauce.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$25.21</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="totellini.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Totellini</h3>
+                    <p>Tortellini is a small ring-shaped pasta filled with meat, cheese, or vegetables. Tortellini is often served in broth or with a creamy sauce.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$18.90</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="panettone.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Panetto</h3>
+                    <p>Panetto is a small bread that is often filled with various ingredients such as meat, cheese, or vegetables. It is a popular snack in Italy.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$12.20</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="ossobuco.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Ossobuco</h3>
+                    <p>Ossobuco is a traditional Italian dish consisting of pieces of beef shank cooked slowly in broth with tomatoes, vegetables, and white wine. This dish is usually served with risotto or polenta.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$30.29</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="pasta.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Pasta</h3>
+                    <p>Pasta is an Italian food made from a dough of wheat flour and water, which is then shaped and cooked. There are many types of pasta such as spaghetti, penne, fusilli, and others, which are usually served with different types of sauces.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$17.80</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="parmigiano.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="start">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <h3>Parmigiano</h3>
+                    <p>Parmigiano or Parmigiano-Reggiano is an Italian hard cheese known for its rich flavor and grainy texture. This cheese is often grated on top of pasta, risotto, and salads.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$20.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--review section-->
+
+    <section class="review" id="review">
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading">what they say</h1>
+    
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="userr.jpg" style="width: 100px;" alt="">
+                        <div class="user-info">
+                            <h3>Dwi</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Very very good</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="userr.jpg" style="width: 100px;" alt="">
+                        <div class="user-info">
+                            <h3>Jelita</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>It's really delicious, the place is clean anyway recommended</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="userr.jpg" style="width: 100px;" alt="">
+                        <div class="user-info">
+                            <h3>Adhliyah</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Good</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="userr.jpg" style="width: 100px;" alt="">
+                        <div class="user-info">
+                            <h3>Adam</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The food is good</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fa-solid fa-quote-right"></i>
+                    <div class="user">
+                        <img src="userr.jpg" style="width: 100px;" alt="">
+                        <div class="user-info">
+                            <h3>Jelita</h3>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>The place is very strategic, the food is good, the service is easy, the courier is friendly</p>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+
+    <!--order-->
+
+    <section class="order" id="order">
+        <h3 class="sub-heading">order now</h3>
+        <h1 class="heading">free and fast</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="text" placeholder="extra with food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>how much</span>
+                    <input type="number" placeholder="how many orders?">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea placeholder="enter your address"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea placeholder="enter your message"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="order now" class="btn">
+        </form>
+    </section>
+
+
+    <!--footer-->
+    <div class="section footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">USA</a>
+                <a href="#">Indonesia</a>
+                <a href="#">Korea</a>
+                <a href="#">China</a>
+                <a href="#">France</a>
+            </div>
+    
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Dishes</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Review</a>
+                <a href="#">Order</a>
+            </div>
+    
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+62-82170-11</a>
+                <a href="#">dwijelitaadhliyah@gmail.com</a>
+                <a href="#">Riau, Pekanbaru - 21294</a>
+            </div>
+    
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="https://www.instagram.com/jltaadhlyh_?igsh=N2J1Ym5oY3ZvbThu">Instagram</a>
+                <a href="https://x.com/Dwijelitaaaa?t=8XrFXfe8mwY92h3bDXSNnQ&s=08 ">X-Twitter</a>
+                <a href="https://www.linkedin.com/in/dwi-jelita-adhliyah-847508270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Linkedin</a>
+            </div>
+        </div>
+    
+        <div class="credit">
+            &copy; 2024 Resto Italian. All Rights Reserved. Made with <span>&#10084;</span> Dwi Jelita Adhliyah
+        </div>
+    </div>
+    <!--loader part-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
